@@ -43,7 +43,7 @@ const Profile = () => {
           
         </div>
         <div className='w-full bg-blue-4000  flex justify-center'>
-        <img src="public/a.JPG"  alt="a" className='md:w-[400px] md:h-[400px] w-[200px] h-[200px] rounded-full border-9 shadow-[0px_0px_10px_white] border-gray-900 rotate-270' />
+        <img src="/a.JPG"  alt="a" className='md:w-[400px] md:h-[400px] w-[200px] h-[200px] rounded-full border-9 shadow-[0px_0px_10px_white] border-gray-900 rotate-270' />
         </div>
 
       </div>
