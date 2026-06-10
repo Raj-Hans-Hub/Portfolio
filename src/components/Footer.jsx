@@ -78,9 +78,9 @@ return (
 
           <div class=" text-5xl p-4 flex justify-end  gap-x-4">
 
-            <address> <a href="mailto:mahadevheighs9999@gmail.com"><img src="public/mail.JPeG" alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
-            <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src="public/whatshapp.JPeG" alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
-            <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src="public/github.JPeG" alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
+            <address> <a href="mailto:mahadevheighs9999@gmail.com"><img src={`${import.meta.env.BASE_URL}mail.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
+            <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src={`${import.meta.env.BASE_URL}whatshapp.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
+            <address> <a href="https://wa.me/9351167484?text=hello%20Raj" target='_blank'><img src={`${import.meta.env.BASE_URL}github.jpeg`} alt="" className='w-[80px] h-[80px] rounded-2xl border-gray-700 border-3 shadow-[0px_0px_12px_white] hover:shadow-[0px_0px_20px_white] hover:border-6 ' /></a></address>
 
             
 

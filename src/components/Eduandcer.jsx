@@ -17,11 +17,11 @@ const Eduandcer = () => {
             </div>
         </div>
         <div className="project_item_box  flex w-full">
-            <div className="project_pic  "><img src="public/html.jpeg" alt="" className='h-[200px] w-[400px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
+            <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}html.jpeg`} alt="" className='h-[200px] w-[400px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
             
         </div>
         <div className="project_item_box  flex w-full">
-            <div className="project_pic  "><img src="public/html.jpeg" alt="" className='h-[200px] w-[400px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
+            <div className="project_pic  "><img src={`${import.meta.env.BASE_URL}html.jpeg`} alt="" className='h-[200px] w-[400px] shadow-[0_0_30px_rgba(0,0,0,0.9)]' alt="" srcset="" /></div>
             
         </div>
         </div>
