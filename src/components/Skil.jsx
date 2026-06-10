@@ -19,24 +19,24 @@ const Skil = () => {
     }, []);
     return (
         <>
-            <section id='skill' ref={sectionRef} className='scroll-mt-11 border-[.1px] border-y-gray-500 border-x-0 container mx-auto'>
-                <div className='  text-start ms-25 mt-9  text-4xl font-serif ' >SKILLS</div>
+            <section id='skill' ref={sectionRef} className='scroll-mt-11 border-[.1px]  border-y-gray-500   border-x-0  '>
+                <div className='  text-start ms-25 mt-9 max-sm:text-center max-sm:ms-0   text-4xl font-serif ' >SKILLS</div>
                 <div className='container flex-col sm:flex-row justify-center  items-center  flex mx-auto    h-[80vh] '>
                     {/* start imgage set coding */}
                     <div className='w-full  flex justify-center  '><img src={`${import.meta.env.BASE_URL}b.jpg`} alt="" className=' w-[250px] h-[250px] rounded-full  border-8 ' />
                     </div>
 
                     {/* end image conging */}
-                    <div className=' w-full  flex  items-center justify-center   '>
+                    <div className=' w-full  flex  items-center justify-center  max-sm:my-6 max-sm:flex-col '>
 
-                        <div className=' w-full ms-22 '>
+                        <div className=' w-full ms-22 max-sm:flex max-sm:flex-col  '>
                              
                              {/* start html bar conding */}
                             <div className="item w-full  gap-2 flex   items-center justify-center">
                                 <div className="img mt-3 flex flex-col justify-center items-center font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}html.jpeg`} alt="" className='h-[40px] w-[40px]  ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
-                                        <div className={` h-2.5 bg-amber-900 rounded-full transition-all ease-in-out duration-2000 ${show ? "w-[80%]" : "w-0"} `}></div>
+                                        <div className={` h-2.5 bg-amber-900 rounded-full transition-all ease-in-out duration-2000 ${show ? "w-[70%]" : "w-0"} `}></div>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ const Skil = () => {
                                 <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}css.jpeg`} alt="" className='h-[40px] w-[40px]  ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
-                                        <div className={` h-2.5 bg-blue-900 rounded-full transition-all delay-2000 ease-in-out duration-2000 ${show ? "w-[75%]" : "w-0"} `}></div>
+                                        <div className={` h-2.5 bg-blue-900 rounded-full transition-all delay-2000 ease-in-out duration-2000 ${show ? "w-[65%]" : "w-0"} `}></div>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const Skil = () => {
                                 <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}js.jpeg`} alt="" className='h-[40px] w-[40px]  ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
-                                        <div className={` h-2.5 bg-yellow-600 rounded-full transition-all delay-4000 ease-in-out duration-2000 ${show ? "w-[60%]" : "w-0"} `}></div>
+                                        <div className={` h-2.5 bg-yellow-600 rounded-full transition-all delay-4000 ease-in-out duration-2000 ${show ? "w-[50%]" : "w-0"} `}></div>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ const Skil = () => {
                                 <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}tailwindcss.jpeg`} alt="" className='h-[40px] w-[40px]  rotate-13 ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
-                                        <div className={` h-2.5 bg-yellow-600 rounded-full transition-all delay-6000 ease-in-out duration-2000 ${show ? "w-[60%]" : "w-0"} `}></div>
+                                        <div className={` h-2.5 bg-sky-400 rounded-full transition-all delay-6000 ease-in-out duration-2000 ${show ? "w-[45%]" : "w-0"} `}></div>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ const Skil = () => {
                                 <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}boots.jpeg`} alt="" className='h-[40px] w-[40px]  ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
-                                        <div className={` h-2.5 bg-violet-600 rounded-full transition-all delay-8000 ease-in-out duration-2000 ${show ? "w-[50%]" : "w-0"} `}></div>
+                                        <div className={` h-2.5 bg-violet-600 rounded-full transition-all delay-8000 ease-in-out duration-2000 ${show ? "w-[40%]" : "w-0"} `}></div>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ const Skil = () => {
                                 <div className="img mt-3 flex flex-col justify-center items-center  font-semibold font-serif"><img src={`${import.meta.env.BASE_URL}react.jpeg`} alt="" className='h-[40px] w-[40px] bg-black  ' /> <span></span></div>
                                 <div className="barbox w-3/4   ">
                                     <div className="bar w-3/4 h-3 bg-amber-50   rounded-full relative border">
-                                        <div className={` h-2.5 bg-blue-500 rounded-full transition-all delay-10000 ease-in-out duration-2000 ${show ? "w-[40%]" : "w-0"} `}></div>
+                                        <div className={` h-2.5 bg-blue-500 rounded-full transition-all delay-10000 ease-in-out duration-2000 ${show ? "w-[30%]" : "w-0"} `}></div>
                                     </div>
                                 </div>
                             </div>

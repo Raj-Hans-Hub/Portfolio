@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { MdMenu } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
 
@@ -57,11 +58,11 @@ const Navbar = () => {
 
 
   return (
-    <nav className='  container mx-auto flex justify-between border border-y-gray-500 border-x-0 bg-black text-white z-20 py-2 sticky top-0'>
+    <nav className='  flex justify-between border border-y-gray-500 border-x-0 bg-black text-white z-20 py-2 sticky top-0'>
       <div className="logo font-bold text-xl mx-6">
         <span className=' '> !Port</span><span className='text-amber-600 '>foilo</span>
       </div>
-      <div className='max-sm:block hidden' onClick={heamer}>hemp</div>
+      <div className='max-sm:block hidden' onClick={heamer}><MdMenu/></div>
       <ul className='flex gap-1 mx-6 max-sm:hidden '>
         <li onClick={() => scrollToSection("home", "home")} className={` ${active === "home" ? "text-red-700 font-bold" : ""} cursor-pointer hover:font-bold  hover:text-red-700  w-[80px] text-center  transition-all`}>Home</li>
         <li onClick={() => scrollToSection("skill", "skill")} className={` ${active === "skill" ? "text-red-700 font-bold" : ""} cursor-pointer hover:font-bold  hover:text-red-700  w-[80px] text-center transition-all`} >Skill</li>

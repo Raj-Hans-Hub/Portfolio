@@ -12,6 +12,8 @@ function App() {
 
   return (
     <>
+    <div className="continer bg-amber-300 overflow-x-hidden">
+
       <Navbar />
       <Profile/>
       < Career_objecttive/>
@@ -19,6 +21,7 @@ function App() {
        <Projects/>
        <Eduandcer/>
        <Footer/>
+    </div>
     </>
   )
 }
