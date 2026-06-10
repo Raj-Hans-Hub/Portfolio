@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className="continer bg-amber-300 overflow-x-hidden">
+    <div className="continer bg-amber-300 overflow-x-clip">
 
       <Navbar />
       <Profile/>
