@@ -62,8 +62,9 @@ const Footer = () => {
 
 return (
   <>
+   <hr className='bg-gray-500 h-[1px] '/>
     <footer id='contect' className='container mx-auto'>
-      <div  className='text-start ms-15  text-4xl font-serif max-sm:text-center max-sm:ms-0 ' id='skills'>CONTECT</div>
+      <div  className='text-start  my-5 text-4xl font-serif max-sm:text-center  ' id='skills'>CONTECT</div>
       <div className="  container mx-auto flex flex flex-col justify-center items-center md:flex-row ">
         <div className="  flex flex-col p-3 w-full max-sm:text-center max-sm:ms-0">
           <form onSubmit={handleSubmit}>

@@ -19,9 +19,10 @@ const Skil = () => {
     }, []);
     return (
         <>
-            <section id='skill' ref={sectionRef} className='scroll-mt-11 border-[.1px]  border-y-gray-500   border-x-0  '>
-                <div className='  text-start ms-25 mt-9 max-sm:text-center max-sm:ms-0   text-4xl font-serif ' >SKILLS</div>
-                <div className='container flex-col sm:flex-row justify-center  items-center  flex mx-auto    h-[80vh] '>
+        <hr className='bg-gray-500 h-[1px] '/>
+            <section id='skill' ref={sectionRef} className='scroll-mt-11   mx-auto container   '>
+                <div className='  text-start  my-9 max-sm:text-center    text-4xl font-serif ' >SKILLS</div>
+                <div className='container flex-col sm:flex-row justify-center  items-center  flex mx-auto   '>
                     {/* start imgage set coding */}
                     <div className='w-full  flex justify-center  '><img src={`${import.meta.env.BASE_URL}b.jpg`} alt="" className=' w-[250px] h-[250px] rounded-full  border-8 ' />
                     </div>
